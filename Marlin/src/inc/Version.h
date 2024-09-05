@@ -25,7 +25,11 @@
  * Release version. Leave the Marlin version or apply a custom scheme.
  */
 #ifndef SHORT_BUILD_VERSION
-  #define SHORT_BUILD_VERSION "skrmv3-2.1.1b"
+  #ifdef BIQU_MICROPROBE_V2
+    #define SHORT_BUILD_VERSION "skrmv3-mp-2.1.1b"
+  #else
+    #define SHORT_BUILD_VERSION "skrmv3-2.1.1b"
+  #endif
 #endif
 
 /**
@@ -42,7 +46,7 @@
  * version was tagged.
  */
 #ifndef STRING_DISTRIBUTION_DATE
-  #define STRING_DISTRIBUTION_DATE "2024-09-04"
+  #define STRING_DISTRIBUTION_DATE "2024-09-05"
 #endif
 
 /**
