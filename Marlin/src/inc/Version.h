@@ -26,9 +26,9 @@
  */
 #ifndef SHORT_BUILD_VERSION
   #ifdef BIQU_MICROPROBE_V2
-    #define SHORT_BUILD_VERSION "skrmv3-mp-2.1.1b"
+    #define SHORT_BUILD_VERSION "skrmv3-mp-2.1.2b"
   #else
-    #define SHORT_BUILD_VERSION "skrmv3-2.1.1b"
+    #define SHORT_BUILD_VERSION "skrmv3-2.1.2b"
   #endif
 #endif
 
